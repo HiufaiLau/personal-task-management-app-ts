@@ -1,16 +1,16 @@
-let firstname = "John";
+let article: {
+  author: string;
+  content: string;
+  title: string;
+  image?: string;
+  date?: Date;
+  wordCount?: number;
+};
 
-// firstname = 25;
-
-const number = 85;
-
-let numberTwo = 90;
-
-let finalResult: number;
-
-function addNumber(a: number, b: number) {
-  return a + b;
-}
-
-finalResult = addNumber(10, 15);
-console.log(finalResult);
+article = {
+  author: "Stella",
+  content: "Hello World",
+  title: "My First Article",
+  date: new Date(),
+  wordCount: 100,
+};
