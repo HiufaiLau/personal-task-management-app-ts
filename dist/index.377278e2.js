@@ -1,8 +1,10 @@
-function multiByTwo(number) {
-    if (typeof number === "number") return number * 2;
-    return "Please provide a valid number";
-}
-console.log(multiByTwo(4));
-console.log(multiByTwo(123));
+let booleanValue = true;
+// Literal values
+booleanValue = false;
+// expression of true or false
+booleanValue = true;
+console.log(booleanValue);
+booleanValue = true;
+console.log(booleanValue);
 
 //# sourceMappingURL=index.377278e2.js.map
